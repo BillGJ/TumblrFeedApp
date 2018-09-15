@@ -1,8 +1,8 @@
 //
-//  PhotoCellTableViewCell.swift
+//  PhotoCell.swift
 //  TumblrFeedApp
 //
-//  Created by Ebillson GRAND JEAN on 9/14/18.
+//  Created by Ebillson GRAND JEAN on 9/15/18.
 //  Copyright © 2018 Ebillson GRAND JEAN. All rights reserved.
 //
 
@@ -10,6 +10,8 @@ import UIKit
 
 class PhotoCell: UITableViewCell {
 
+    @IBOutlet weak var imgView: UIView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
