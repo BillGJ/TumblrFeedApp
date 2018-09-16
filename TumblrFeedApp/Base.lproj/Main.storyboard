@@ -4,7 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
+        <deployment version="2320" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -26,7 +26,7 @@
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PhotoCell" rowHeight="202" id="euk-9C-e3z" customClass="PhotoCell" customModule="TumblrFeedApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="343" height="202"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="euk-9C-e3z" id="qPb-6r-bCq">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="euk-9C-e3z" id="qPb-6r-bCq">
                                             <rect key="frame" x="0.0" y="0.0" width="343" height="201.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
@@ -37,7 +37,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="imgView" destination="qPb-6r-bCq" id="iSH-hO-egx"/>
+                                            <outlet property="myImageView" destination="zjm-bF-XGA" id="Aai-JV-zvd"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
