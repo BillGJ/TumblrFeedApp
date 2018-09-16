@@ -11,7 +11,6 @@ import AlamofireImage
 
 
 
-
 class PhotosViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     
